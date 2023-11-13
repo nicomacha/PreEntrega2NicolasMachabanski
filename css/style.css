@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200&display=swap'); 
+
 /* RESET */
 * {
     margin: 0;
@@ -8,7 +10,7 @@
 
 /* FUENTE ELEGIDA */
 body {
-
+    font-family: 'Roboto Mono', monospace !important; 
 }
 
 a {
@@ -27,7 +29,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: rgba(230, 227, 227, 0.059) ;
+    background-color: rgba(230, 227, 227, 0.059);
     color: black;
     padding: 9px;
     height: 50px;
@@ -42,7 +44,7 @@ a {
     height: 400px;
     display: flex;
     padding: 10px;
-    
+
 }
 
 .logo_luma {
@@ -56,9 +58,11 @@ a {
     justify-content: center;
 
 }
+
 .card-group {
     gap: 20px;
 }
+
 .card-body {
     display: flex;
     flex-direction: column;
@@ -78,7 +82,7 @@ a {
     gap: 30px;
     font-size: 30px;
     color: rgb(17, 15, 15);
-    
+
 }
 
 .nav-foot {
@@ -110,7 +114,7 @@ a {
     justify-content: center;
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 
@@ -136,11 +140,13 @@ a {
     width: 100%;
     height: 300px;
     background-color: blue;
-    
+
 
 }
 
-.bi-box-seam, .bi-wallet, .bi-truck {
+.bi-box-seam,
+.bi-wallet,
+.bi-truck {
     font-size: 100px;
     align-items: center;
 }
@@ -156,6 +162,7 @@ a {
 .nav-bar {
     display: flex;
 }
+
 .nav a {
     color: black;
 }
@@ -165,28 +172,33 @@ a {
     align-items: center;
 }
 
-.secccion_remeras, .seccion_buzos, .seccion_jean {
+.secccion_remeras,
+.seccion_buzos,
+.seccion_jean {
     padding: 20px;
 }
 
 .boton_prod {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .linea1 {
     margin: 20px auto;
     width: 50%;
 }
+
 .main-nosotros {
     padding: 20px;
 }
-.main-nosotros section, .main_cambios {
+
+.main-nosotros section,
+.main_cambios {
     margin-top: 30px;
     /*border: 1px solid black;*/
     width: 100%;
-    
+
 }
 
 .text_princnos {
@@ -198,7 +210,8 @@ a {
     margin-top: 77px;
 }
 
-.tit_camb, .text_camb {
+.tit_camb,
+.text_camb {
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -211,8 +224,9 @@ a {
 iframe {
     width: 500px;
     height: 400px;
-    
+
 }
+
 .lista_contact {
     list-style-type: none;
     padding: 10px;
@@ -221,11 +235,13 @@ iframe {
 .lista_contact i {
     margin-right: 15px;
 }
+
 /* Media Queries */
 
-@media (max-width: 767px)
-{
-    .navbar-brand, {
-        display: none;
-    }
+@media (max-width: 767px) {
+
+    .navbar-brand
+    {
+    display: none;
+}
 }
