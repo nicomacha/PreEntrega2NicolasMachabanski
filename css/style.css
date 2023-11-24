@@ -11,6 +11,7 @@
 /* FUENTE ELEGIDA */
 body {
     font-family: 'Roboto Mono', monospace !important; 
+    overflow: hidden;
 }
 
 a {
