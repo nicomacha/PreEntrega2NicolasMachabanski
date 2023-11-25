@@ -11,7 +11,6 @@
 /* FUENTE ELEGIDA */
 body {
     font-family: 'Roboto Mono', monospace !important; 
-    overflow: hidden;
 }
 
 a {
@@ -19,6 +18,9 @@ a {
     color: inherit;
 }
 
+.banner-princ {
+    width: 100%;
+}
 
 .navbar-collapse a {
     color: black;
